@@ -1,0 +1,52 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #eaeaea ;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    padding: 10px;
+    background-color: white;
+}
+
+.footer-element{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer-ele-icon{
+    display: flex;
+    transform: scale(0.8);
+    
+}
+.footer-ele-icon img{
+    width: 40px;
+    margin: auto;
+    transition: all 1s ease-in-out;
+}
+
+.footer-ele-icon:hover{
+    animation: slide 2s infinite;
+}
+
+@keyframes slide {
+    from{
+        transform: translateY(-10px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+.footer-element-a{
+    display: flex;
+    transform: scale(0.8);
+    text-decoration: none;
+}
