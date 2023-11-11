@@ -3,36 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calender App</title>
+    <title>Music App</title>
     <link rel="stylesheet" href="./css/style.css">
     <!-- <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main.css?after">
     <link rel="stylesheet" href="./css/footer.css"> -->
 </head>
 <body>
-    <div class="media-info-msg"> 화면 사이즈를 키워 주세요</div>
+    <div class="media-info-msg"> 화면 사이즈를 조절해 주세요</div>
 
     <header>
-        <div class="calender-bar">
-            <div class="calender-bar-icons">
+        
+          <div class="search-bar">
+            <img src="./assets/search.svg" alt="">
+          </div>
+
+          <div class="music-bar">
+            <div class="music-bar-icons">
                 <img src="./assets/chevron-left.svg" alt="">
-                <img src="./assets/chevron-right.svg" alt="">
             </div>
-            <div class="nice-bar-nice">나이스 학생 관리 시스템</div>
-            <div class="nice-bar-time">20:55</div>
+            <div class="playlist-bar-title">My playlist</div>
+            <div class="playlist-bar-time">20:55</div>
         </div>
 
         <div class="function-bar">
             <div class="function-bar-tab">
-                <div class="function-bar-title">STUDENT RECORD</div>
-                <img src="assets/x-circle.svg" alt="">
+              <img src="assets/play.svg" alt="">
+                <div class="function-bar-title">재생</div>
+                
+            </div>
+            <div class="function-bar-tab">
+              <img src="assets/random.svg" alt="">
+                <div class="function-bar-title">임의 재생</div>
+                
             </div>
 
-            <div class="function-bar-icons">
-                <img src="./assets/print.svg" alt="">
-                <img src="./assets/share.svg" alt="">
-                <img src="./assets/save.svg" alt="">
-            </div>
+            
         </div>
     </header>
 
@@ -40,46 +46,70 @@
 
       
     <div class="main-box"> 
+      <div class="main-box-song">
+
+      <div class="main-box-playlist-img">
+        <img src="assets/playlist.svg" alt="item-image" />
+      </div>
         
-        <div class="main-box-schedule-meta">
-          <div class="schedule-title">회의</div>
-          <div class="schedule-month">11월</div>
-          <div class="schedule-date">6일</div>
-          <div class="schedule-location">신은초등학교</div>
+        <div class="main-box-song-meta">
+          <div class="song-title">You & Me</div>
+          <div class="song-artist">제니</div>
         </div>
 
-        <div class="main-box-schedule-img">
-            <img src="assets/schedule.svg" alt="item-image" />
-          </div>
       </div>
 
-      <div class="main-box"> 
-        
-        <div class="main-box-schedule-meta">
-          <div class="schedule-title">슈퍼코딩 OT</div>
-          <div class="schedule-month">11월</div>
-          <div class="schedule-date">11일</div>
-          <div class="schedule-location">재택</div>
+        <div class="main-ele-icon">
+          <img src="assets/ellipsis.svg" alt="add-icon" />
         </div>
 
-        <div class="main-box-schedule-img">
-            <img src="assets/schedule.svg" alt="item-image" />
-          </div>
       </div>
 
-      <div class="main-box"> 
+       
+    <div class="main-box"> 
+      <div class="main-box-song">
+
+      <div class="main-box-playlist-img">
+        <img src="assets/playlist.svg" alt="item-image" />
+      </div>
         
-        <div class="main-box-schedule-meta">
-          <div class="schedule-title">슈퍼코딩 시작일</div>
-          <div class="schedule-month">11월</div>
-          <div class="schedule-date">13일</div>
-          <div class="schedule-location">재택</div>
+        <div class="main-box-song-meta">
+          <div class="song-title">You & Me</div>
+          <div class="song-artist">제니</div>
         </div>
 
-        <div class="main-box-schedule-img">
-            <img src="assets/schedule.svg" alt="item-image" />
-          </div>
       </div>
+
+        <div class="main-ele-icon">
+          <img src="assets/ellipsis.svg" alt="add-icon" />
+        </div>
+
+      </div>
+    
+       
+    <div class="main-box"> 
+      <div class="main-box-song">
+
+      <div class="main-box-playlist-img">
+        <img src="assets/playlist.svg" alt="item-image" />
+      </div>
+        
+        <div class="main-box-song-meta">
+          <div class="song-title">You & Me</div>
+          <div class="song-artist">제니</div>
+        </div>
+
+      </div>
+
+        <div class="main-ele-icon">
+          <img src="assets/ellipsis.svg" alt="add-icon" />
+        </div>
+
+      </div>
+
+    
+
+      
 
 
 
@@ -90,31 +120,31 @@
     <footer>
         <a class="footer-element" href="/">
             <div class="footer-ele-icon">
-              <img src="assets/main.svg" alt="home-icon" />
+              <img src="assets/playlist.svg" alt="home-icon" />
             </div>
-            <div class="footer-ele-name">홈</div>
+            <div class="footer-ele-name">My playlist</div>
           </a>
           <a class="footer-element" href="signup.html">
             <div class="footer-ele-icon" >
-              <img src="assets/login.svg" alt="home-icon" />
+              <img src="assets/lock.svg" alt="home-icon" />
             </div>
-            <div class="footer-ele-name">교사 인증</div>
+            <div class="footer-ele-name">Sign-in</div>
           </a>
 
 
           <a class="footer-element" href="write.html">
             <div class="footer-ele-icon">
-              <img src="assets/write.svg" alt="home-icon" />
+              <img src="assets/plus.svg" alt="plus-icon" />
             </div>
-            <div class="footer-ele-name">기록하기</div>
+            <div class="footer-ele-name">Add Music</div>
           </a>
 
 
           <a class="footer-element" href="./login.html">
             <div class="footer-ele-icon">
-              <img src="assets/user.svg" alt="home-icon" />
+              <img src="assets/my.svg" alt="home-icon" />
             </div>
-            <div class="footer-ele-name">선생님 로그인</div>
+            <div class="footer-ele-name">Login</div>
           </a>
 
           

@@ -4,28 +4,41 @@ header{
     border-bottom: 1px solid #ededef;
 }
 
-.nice-bar{
+.music-bar{
     display: flex;
     justify-content: space-between;
+    
     padding: 0 5px 10px 5px;
-}
-
-.nice-bar-icons img{
-    width: 20px;
-    align-items: flex-start;
-
-}
-
-
-
-.nice-bar-nice{
     font-size: 20px;
     font-weight: 500;
 }
 
+.music-bar-icons img{
+    display: flex;
+    width: 20px;
+    justify-content: left;
+
+}
+
+.search-bar{
+    display: block;
+    flex-direction: column;
+    margin: 0 0 10px 0;
+    background-color: #ededef ;
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+.search-bar img{
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+}
+
 .function-bar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 0 7px 0 7px;
 }
@@ -35,18 +48,14 @@ header{
 }
 .function-bar-tab img{
     width: 20px;
-    padding: 0 10px 0 0 ;
+    padding: 0 5px 0 5px;
 }
 .function-bar-title{
     font-size: 15px;
     font-weight: 500;
     padding: 10px;
 }
-.function-bar-icons img{
-    width: 20px;
-    margin: 0 3px;
-    
-}
+
 
 .function-bar-icons img:hover{
     animation: zoom 2s infinite; 
